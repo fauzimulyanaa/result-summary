@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.center {
+  display: flex;
+  width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 0 0 3px;
+}
+
+.card {
+  width: 350px;
+  height: 380px;
+  background-color: hsl(241, 81%, 54%);
+  border-radius: 20px;
+}
+
+.center .card h4 {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.center .card .bulat {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: hsla(241, 72%, 46%, 1);
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center .card .bulat .konten {
+  text-align: center;
+  color: #ffffff;
+}
+
+.center .card .bulat .nilai {
+  font-size: 2.7rem;
+}
+
+.card .bulat .konten .text-2 {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.card .great {
+  font-size: 1.5rem;
+}
+
+.card p {
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.card-detail {
+  padding: 20px 20px;
+  width: 400px;
+}
+.reaction {
+  display: flex;
+  gap: 5px;
+}
+
+.card-detail .detail {
+  margin-top: 20px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-detail .detail-1 {
+  background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.card-detail .detail-2 {
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.card-detail .detail-3 {
+  background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.card-detail .detail-4 {
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.card-detail button {
+  margin-top: 30px;
+  width: 250px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+}
